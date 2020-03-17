@@ -1,0 +1,3 @@
+[submodule "themes/yan"]
+	path = themes/yan
+	url = https://github.com/YunYouJun/hexo-theme-yun
