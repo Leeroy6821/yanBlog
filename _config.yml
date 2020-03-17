@@ -100,4 +100,4 @@ theme: yan
 deploy:
   type: 'git'
   repo: https://github.com/Leeroy6821/yanBlog.git
-# branch: gh-pages
+  branch: gh-pages
