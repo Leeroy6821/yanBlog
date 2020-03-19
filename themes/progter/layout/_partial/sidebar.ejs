@@ -1,0 +1,46 @@
+<nav id="sidebar">
+  <div class="p-4 pt-5">
+
+    <a href="/learn-hexo/" class="img logo rounded-circle mb-5" style="background-image: url(/learn-hexo/images/progter-logo.jpg);"></a>
+
+    <ul class="list-unstyled components mb-5">
+      <li>
+        <a href="/learn-hexo/"><i class="fas fa-home mr-3"></i> Home</a>
+      </li>
+      <li>
+        <a href="/learn-hexo/about/"><i class="fas fa-address-card mr-3"></i> About</a>
+      </li>
+      <li>
+        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle collapsed"><i class="fab fa-buffer mr-3"></i> Courses</a>
+        <ul class="list-unstyled collapse" id="pageSubmenu" style="">
+          <li>
+            <a href="/learn-hexo/courses/html5/"><i class="fab fa-html5 mr-3"></i> HTML5</a>
+          </li>
+          <li>
+            <a href="/learn-hexo/courses/css3/"><i class="fab fa-css3 mr-3"></i> CSS3</a>
+          </li>
+          <li>
+            <a href="/learn-hexo/courses/javascript/"><i class="fab fa-js-square mr-3"></i> JavaScript</a>
+          </li>
+          <li>
+            <a href="/learn-hexo/courses/jquery/"><i class="fas fa-code mr-3"></i> jQuery</a>
+          </li>
+          <li>
+            <a href="/learn-hexo/courses/react/"><i class="fab fa-react mr-3"></i> React</a>
+          </li>
+          <li>
+            <a href="/learn-hexo/courses/node/"><i class="fab fa-node-js mr-3"></i> NodeJS</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/learn-hexo/portfolio/"><i class="fas fa-briefcase mr-3"></i> Portfolio</a>
+      </li>
+      <li>
+        <a href="/learn-hexo/contact/"><i class="fas fa-envelope mr-3"></i> Contact</a>
+      </li>
+    </ul>
+    <!-- Footer -->
+    <%- partial('_partial/footer') %>
+  </div>
+</nav>
